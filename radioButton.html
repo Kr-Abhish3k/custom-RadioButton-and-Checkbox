@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--FOR SOURCE README :- https://kyusuf.com/post/completely-css-custom-checkbox-radio-buttons-and-select-boxes-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="./radioButton.css" rel=stylesheet type="text/css">
+	</head>
+	<body>
+		<div class="control-group">
+			<h1>Radio buttons</h1>
+			<div class="control control--radio">
+				<label for="First_radio">First radio</label>
+				<input type="radio" name="radio" id="First_radio" checked="checked"/>
+				<span class="control__indicator"></span>
+			</div>
+			<div class="control control--radio">
+				<label for="second_radio">Second radio</label>
+				<input type="radio" name="radio" id="second_radio"/>
+				<span class="control__indicator"></span>
+			</div>
+			<div class="control control--radio">
+				<label for="disabled__radio">Disabled</label>
+				<input type="radio" name="radio2" id="disabled__radio" disabled="disabled"/>
+				<span class="control__indicator"></span>
+			</div>
+			<div class="control control--radio">Disabled & checked
+				<input type="radio" name="radio2" disabled="disabled" checked="checked"/>
+				<span class="control__indicator"></span>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<h1>Checkboxes</h1>
+			<div class="control control--checkbox">
+				<label for="First__checkbox">First checkbox</label>
+				<input type="checkbox" checked="checked" id="First__checkbox"/>
+				<span class="control__indicator"></span>
+			</div>
+			<div class="control control--checkbox">
+				<label for="second__checkbox">Second checkbox</label>
+				<input type="checkbox" id="second__checkbox"/>
+				<span class="control__indicator"></span>
+			</div>
+			<div class="control control--checkbox">
+				<label for="disabled__checkbox">Disabled</label>
+				<input type="checkbox" disabled="disabled" id="disabled__checkbox"/>
+				<span class="control__indicator"></span>
+			</div>
+			<div class="control control--checkbox">
+				<label for="disabledChecked__checkbox">Disabled & checked</label>
+				<input type="checkbox" disabled="disabled" id="disabledChecked__checkbox" checked="checked"/>
+				<span class="control__indicator"></span>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<h1>Select box</h1>
+			<div class="select">
+				<select>
+					<option>First Select</option>
+					<option>Option 1</option>
+					<option>Option 2</option>
+				</select>
+				<div class="select__arrow"></div>
+			</div>
+			<div class="select">
+				<select>
+					<option>Second Select</option>
+					<option>Option 1</option>
+					<option>Option 2</option>
+				</select>
+				<div class="select__arrow"></div>
+			</div>
+			<div class="select">
+				<select disabled>
+					<option>Disabled</option>
+					<option>Option 1</option>
+					<option>Option 2</option>
+				</select>
+				<div class="select__arrow"></div>
+			</div>
+		</div>
+		
+	</body>
+</html>
